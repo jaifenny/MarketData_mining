@@ -29,3 +29,10 @@
 </table>
 </div>
 
+### :small_blue_diamond: **利用Elbow方法找出K應該設置多少？**
+- 
+    1. 初始化KMeans模型，嘗試不同的K值，並繪製Elbow圖![](https://github.com/jaifenny/MarketData_mining/blob/main/picture/1.png)
+
+    2. 計算相鄰點之間的SSE差異，k = 4之後的SSE下降幅度變得較緩慢，K 應該設置為4，肘部的確定可能有一些主觀性，因此可能需要根據實際應用情境來進行調整。
+     ![](https://github.com/jaifenny/MarketData_mining/blob/main/picture/4.png)
+
